@@ -432,7 +432,14 @@ h3, .h3 {
   }
 }
 
-
+h4, .h4, .textoXl {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h4, .h4, .textoXl {
+    font-size: 1.5rem;
+  }
+}
 
 h5, .h5 {
   font-size: 1.25rem;
@@ -4414,7 +4421,7 @@ textarea.form-control-lg {
   min-width: 0;
   height: var(--bs-card-height);
   word-wrap: break-word;
-  background-color: var(--bs-card-bg);
+  background-color: rgba(190, 198, 202, 0.521);
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
