@@ -71,6 +71,76 @@
   
   }
   
+
+/* GRIDS contacto */
+
+#contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas: 
+    "botoneraI"
+    "botoneraII"
+    "header__contacto"
+    "titulo"
+    "blockI"
+    "blockII"
+    "mapa"
+    "footer"
+    ;
+	
+}
+
+@media (min-width:1024px){
+    #contenedor-grid{
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(7, auto);
+        grid-template-areas:
+        "botoneraI botoneraI"
+        "botoneraII botoneraII"
+        "header__contacto header__contacto"
+        "titulo titulo"
+        "blockI blockI"
+        "blockII mapa"
+        "footer footer"
+         ;
+    }
+}
+    /* grid areas contacto */
+
+.botoneraI{
+    grid-area: botoneraI;
+}
+
+.botoneraII{
+    grid-area: botoneraII;
+}
+
+.header__contacto{
+    grid-area: header__contacto;
+    width: 100%;
+}
+
+.titulo{
+    grid-area: titulo;
+}
+
+.blockI{
+    grid-area: blockI;
+}
+
+.blockII{
+    grid-area: blockII;
+}
+
+.mapa{
+    grid-area: mapa;
+}
+
+.footer{
+    grid-area: footer;
+}
+
   
   
   

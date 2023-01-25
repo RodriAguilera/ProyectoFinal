@@ -290,6 +290,55 @@ h4, .h4, .textoXl {
   overflow: hidden;
 }
 
+/* GRIDS contacto */
+#contenedor-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, auto);
+  grid-template-areas: "botoneraI" "botoneraII" "header__contacto" "titulo" "blockI" "blockII" "mapa" "footer";
+}
+
+@media (min-width: 1024px) {
+  #contenedor-grid {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "botoneraI botoneraI" "botoneraII botoneraII" "header__contacto header__contacto" "titulo titulo" "blockI blockI" "blockII mapa" "footer footer";
+  }
+}
+/* grid areas contacto */
+.botoneraI {
+  grid-area: botoneraI;
+}
+
+.botoneraII {
+  grid-area: botoneraII;
+}
+
+.header__contacto {
+  grid-area: header__contacto;
+  width: 100%;
+}
+
+.titulo {
+  grid-area: titulo;
+}
+
+.blockI {
+  grid-area: blockI;
+}
+
+.blockII {
+  grid-area: blockII;
+}
+
+.mapa {
+  grid-area: mapa;
+}
+
+.footer {
+  grid-area: footer;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -4421,7 +4470,7 @@ textarea.form-control-lg {
   min-width: 0;
   height: var(--bs-card-height);
   word-wrap: break-word;
-  background-color: rgba(190, 198, 202, 0.521);
+  background-color: var(--bs-card-bg);
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
