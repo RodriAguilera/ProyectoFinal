@@ -109,6 +109,7 @@ h4, .h4, .textoXl {
   height: 40vh;
   background-size: cover;
   opacity: 0.9;
+  grid-area: header__biografia;
 }
 
 @media (min-width: 992px) {
@@ -341,6 +342,33 @@ h4, .h4, .textoXl {
 
 .footer {
   grid-area: footer;
+}
+
+/* GRIDS biografia */
+#gridBiografia {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas: "botoneraI" "botoneraII" "header__biografia" "presentacion" "videoI" "videoII" "footer";
+}
+
+@media (min-width: 992px) {
+  #gridBiografia {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, autofill);
+    grid-template-areas: "botoneraI botoneraI botoneraI" "botoneraII botoneraII botoneraII" "header__biografia header__biografia header__biografia" "videoI presentacion videoII" "footer footer footer";
+  }
+}
+.presentacion {
+  grid-area: presentacion;
+}
+
+.videoI {
+  grid-area: videoI;
+}
+
+.videoII {
+  grid-area: videoII;
 }
 
 /*!
