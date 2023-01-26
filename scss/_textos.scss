@@ -88,10 +88,13 @@ h4{
 }
 
 .rojess{
-    font-size: $fontM;
     color: $blackColor;
     &:hover{
         color: $lightColor;
     }
 
+}
+
+#rojess{
+    font-size: 0.8em;
 }

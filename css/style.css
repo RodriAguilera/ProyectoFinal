@@ -72,11 +72,14 @@ h4, .h4, .textoXl {
 }
 
 .rojess {
-  font-size: 1.3em;
   color: rgb(52, 52, 53);
 }
 .rojess:hover {
   color: rgb(122, 120, 120);
+}
+
+#rojess {
+  font-size: 0.8em;
 }
 
 @keyframes headerAnimate {
