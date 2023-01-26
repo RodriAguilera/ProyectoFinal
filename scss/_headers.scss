@@ -44,7 +44,7 @@
 //header entrenamiento
 .header__entrenamientos{
     @extend .header__biografia;
-    background-image: url(../img/fotos/headerEntrenamientos.webp);
+    background-image: url(../img/fotos/headerEntrenamientos\ \(1\).webp);
 
 }
 
@@ -57,14 +57,14 @@
 
 .header__indumentaria{
     @extend .header__biografia;
-    background-image: url(../img/fotos/frontal.jpg);
+    background-image: url(../img/fotos/headerIndumentaria.webp);
 }
 
 @media (min-width:992px) {
     .header__indumentaria{
     width: $headerWidth;
     height: $headerHeight;
-   background-position: center;
+   
     }
 }
 
