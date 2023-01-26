@@ -71,6 +71,14 @@ h4, .h4, .textoXl {
   padding: 10px 20px 10px 20px;
 }
 
+.rojess {
+  font-size: 1.3em;
+  color: rgb(52, 52, 53);
+}
+.rojess:hover {
+  color: rgb(122, 120, 120);
+}
+
 @keyframes headerAnimate {
   0% {
     background-image: url(../img/fotos/animacion1.webp);
@@ -187,6 +195,14 @@ h4, .h4, .textoXl {
   filter: invert(100%);
   cursor: pointer;
   transition: 0.5s;
+}
+
+.nav-imgE {
+  width: 85px;
+  filter: invert(100%);
+}
+.nav-imgE:hover {
+  cursor: pointer;
 }
 
 /* footer */

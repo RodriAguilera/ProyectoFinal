@@ -50,6 +50,14 @@
 }
 
 
+.nav-imgE{
+    width: 85px;
+    filter: invert(100%);
+    &:hover{
+        cursor: pointer;
+      }
+}
+
 
 /* footer */
 .flex{
