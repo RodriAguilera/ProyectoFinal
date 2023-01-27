@@ -3450,6 +3450,7 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
+
   --bs-btn-color: #575757;
   --bs-btn-border-color: #212529;
   --bs-btn-hover-color: #fff;
@@ -3465,6 +3466,9 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
   --bs-gradient: none;
 }
+
+
+
 
 .btn-link {
   --bs-btn-font-weight: 400;
