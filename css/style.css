@@ -79,7 +79,7 @@ h4, .h4, .textoXl {
 }
 
 #rojess {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 @keyframes headerAnimate {
@@ -214,7 +214,7 @@ h4, .h4, .textoXl {
 }
 
 .justify-content {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .aligne-items {
@@ -265,8 +265,10 @@ h4, .h4, .textoXl {
 }
 
 #cardShort {
-  height: 300px;
-  width: 300px;
+  height: 270px;
+  width: 270px;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
 
 /*==== Dinamismo===== */
@@ -307,7 +309,7 @@ h4, .h4, .textoXl {
 }
 .form-register {
   width: 300px;
-  background: linear-gradient(to right, rgb(236, 157, 236), rgb(134, 7, 134));
+  background: linear-gradient(to right, rgb(134, 7, 134), rgb(255, 23, 255));
   padding: 20px;
   margin: auto;
   font-size: 1em;
